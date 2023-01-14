@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "kafka-tutorial"
+version = "0.1.0"
+description = ""
+authors = ["Mounir Messelmeni <messelmeni.mounir@gmail.com>"]
+readme = "README.md"
+packages = [{include = "kafka_tutorial"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+confluent-kafka = "^1.9.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
